@@ -1,8 +1,6 @@
 --- 
-name: {{dderrPark}}
-image: {{프로필 사진 url}} 
+name: {{박재호}}
+image: {{ https://avatar.tobi.sh/tobiaslins.svg/text=JH}} 
 emoji: 🥳 
-message: {{반갑습니다~^^}} 
-facebook: {{계정 아이}} 
-github: {{계정 아이디}} 
+message: {{반갑습니다~^^}}
 ---
