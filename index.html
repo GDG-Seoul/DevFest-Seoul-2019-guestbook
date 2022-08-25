@@ -1,5 +1,5 @@
 ---
-title: DevFest Seoul 2019 Guestbook
+title: INFCON 2022 Guestbook
 ---
 <!DOCTYPE html>
 <html>
@@ -9,18 +9,24 @@ title: DevFest Seoul 2019 Guestbook
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
     <link rel="shortcut icon" href="images/favicon.ico"/>
     <title>{{ page.title }}</title>
+    <style>
+        #guestbook {
+            text-align: center;
+        }
+        .section-header {
+            background: #000;
+        }
+    </style>
 </head>
 
 <body>
 
     <section id="guestbook">
+        <div class="section-header">
+            <img src="images/infcon-guestbook.png" alt="인프콘 로고">
+        </div>
+        <a href="{{site.workshop.github}}" class="button">PR 제출하러 가기🕊</a>
         <div class="container">
-            <div class="section-header">
-                <img src="images/devfest-logo.png" alt="devfest로고">
-                <h1 role="section-heading">Seoul 2019 방명록🥳</h1>
-                <h3><a href="{{site.workshop.github}}">PR 제출하러 가기🕊</a></h3>
-            </div>
-
             <div class="guestbook-content">
               {% for guest in site.guestbook %}
                 <div class="guestbook-item">
@@ -60,7 +66,7 @@ title: DevFest Seoul 2019 Guestbook
     <section class="join" id="join-large">
         <div class="container">
             <div class="join-content">
-                <h3 role="section-heading">PR(pull request)제출하고 사탕받아가세요!</h3>
+<!--                <h3 role="section-heading">PR(pull request)제출하고 사탕받아가세요!</h3>-->
                 <div class="flag">
                         <img src="images/flag.png" alt="">
                 </div>

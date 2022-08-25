@@ -1,0 +1,12 @@
+---
+name: 김영종
+image: https://github.com/tory-inflab.png # 깃허브 아이디를 입력하시면 프로필 이미지가 보입니다.
+# https://avatar.tobi.sh/tobiaslins.svg?text={{이니셜}} 
+# 깃허브 프로필 이미지 대신 위 주소로 이니셜이 적힌 이미지도 사용가능합니다.
+emoji: 🥳
+message: 인사말
+facebook: yeongjongkim@inflab.com
+twitter: tor_y_ort
+github: tory-inflab
+# github 계정아이디는 본인 프로필 페이지 URL에서 확인하실수 있습니다. e. g. https://github.com/{{id}}
+---

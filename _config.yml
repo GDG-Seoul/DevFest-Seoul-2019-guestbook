@@ -6,5 +6,5 @@ collections:
   - guestbook
 
 workshop:
-  name: DevFest Seoul 2019
-  github: https://github.com/GDG-Seoul/DevFest-Seoul-2019-guestbook
+  name: INFCON 2022
+  github: https://github.com/inflearn/infcon2022-guestbook
